@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+footer{
+    width: 100%;
+}
 
 /*Stripe*/
 hr{
@@ -48,7 +50,7 @@ h1{
     text-align: left;
 }
 
-.bodytext{
+p{
     font-family: 'Montserrat', sans-serif;
     color: rgb(2, 40, 81); 
     font-size: 20px;
@@ -63,7 +65,7 @@ h1{
     padding-bottom: 2%;
 }
 
-#logotext1, #logotext2, #logotext3{
+#logotext1, #logotext2{
     font-family: 'Montserrat', sans-serif;
     color: rgb(2, 40, 81); 
 
@@ -74,6 +76,14 @@ h1{
 #logotext2{
     color: rgb(0, 130, 120);
     font-weight: bold;
+}
+
+#validator{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(2, 40, 81); 
+
+    font-size: 16px;
+    text-align: center;
 }
 
 /*Containers*/
@@ -145,10 +155,14 @@ figure{
         font-size: 24px;
     }
 
-    .bodytext{
+    p{
         font-size: 18px;
         margin-left: 1em;
         margin-right: -1.5em;
+    }
+
+    #validator{
+        margin-right: 0em;
     }
 
     /*Containers*/
