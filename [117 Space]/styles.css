@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 body{
     font-family: 'Noto Sans SC', sans-serif;
+    padding: 0% 10%;
+    background-color: #FBF8F3;
 }
 
 header, footer{
     text-align: center;
-    margin: 5% 0%;
-}
-
-main{
-    padding: 0% 10%;
+    padding: 2em 0em;
 }
 
 /*containers*/
@@ -17,7 +15,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 8em 0em;
+    padding: 4em 0em;
 }
 
 #about-content{
@@ -35,6 +33,7 @@ main{
 .links-container{
     display: flex;
     flex-direction: row;
+    padding: 4em 0em;
 }
 #mp-container{
     order: 1; 
@@ -61,4 +60,15 @@ main{
 .nk-image{
     border-radius: 50%;
     height: 200px;
+}
+
+@media (max-width:1000px){
+    .links-container{
+        flex-direction: column;
+    }
+
+    .nk-image{
+        border-radius: 50%;
+        height: 150px;
+    }
 }
