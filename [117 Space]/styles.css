@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+body{
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+header, footer{
+    text-align: center;
+    margin: 5% 0%;
+}
+
+main{
+    padding: 0% 10%;
+}
+
+/*containers*/
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8em 0em;
+}
+
+#about-content{
+    order: 2; 
+    width: 60%;
+}
+
+#about-image{
+    order: 1; 
+    width: 40%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+}
+#mp-container{
+    order: 1; 
+    text-align: center;
+    width: 100%;
+}
+#excercise-container{
+    order: 2;
+    text-align: center;
+    width: 100%;
+}
+#tools-container{
+    text-align: center;
+    order: 3;
+    width: 100%;
+}
+
+.list{
+    display: inline-block;
+    text-align: left;
+}
+
+/*images*/
+.nk-image{
+    border-radius: 50%;
+    height: 200px;
+}

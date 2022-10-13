@@ -4,49 +4,59 @@
   <head>
     <meta charset="UTS-8" />
     <title>Nivrithi Krishnan - Portal Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
-
     <header>
       <h1>Nivrithi Krishnan's Portal Page</h1>
     </header>
 
     <main>
-      <!-- major project -->
-      <section>
-        <h2>Major Projects</h2>
-        <ol>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Interactive Narrative</a></li>
-        </ol>
-      </section>
-      <!-- excercises -->
-      <section>
-        <h2>Exercises</h2>
-        <ul>
-          <li><a href="#">[personal site]</a></li>
-          <li><a href="lemmings-START/">[3] lemmings</a></li>
-          <li><a href="css-backgrounds/">[4] css backgrounds</a></li>
-          <li><a href="custom-background/">[4] custom background image</a></li>
-          <li><a href="article-styling/">article styling</a></li>
-        </ul>
-      </section>
       <!-- seperate but related content -->
       <aside>
-        <h3>About Me</h3>
-        <img src="images/nivrithi-krishnan.jpg" alt="Picture of Nivrithi Krishnan" height="200"
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quia officia eveniet, modi quos voluptatum illo nihil aliquam ratione dolore. Repellat voluptatum cum inventore ipsa voluptatibus similique explicabo velit sapiente.</p>
-
-        <h3>Useful Tools and Links</h3>
-        <ul>
-          <li><a href="https://validator.w3.org/">Validator</a></li>
-          <li><a href="http://www.wbwip.com/wbw/emailencoder.html">Email Encoder</a></li>
-          <li><a href="https://cssgradient.io/">CSS Gradient</a></li>
-          <li><a href="https://www.cssmatic.com/box-shadow">Box Shadow</a></li>
-        </ul>
+        <div class="about-container">
+          <div id="about-image">
+            <img src="images/nivrithi-krishnan.jpg" alt="Picture of Nivrithi Krishnan" class="nk-image">
+          </div>
+          <div id="about-content">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quia officia eveniet, modi quos voluptatum illo nihil aliquam ratione dolore. Repellat voluptatum cum inventore ipsa voluptatibus similique explicabo velit sapiente.</p>
+          </div>
+        </div>
       </aside>
+      <div class="links-container">
+        <!-- major project -->
+        <section id="mp-container">
+          <h2>Major Projects</h2>
+          <ol class="list">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Interactive Narrative</a></li>
+          </ol>
+        </section>
+        <!-- excercises -->
+        <section id="excercise-container">
+          <h2>Exercises</h2>
+          <ul class="list">
+            <li><a href="#">[personal site]</a></li>
+            <li><a href="lemmings-START/">[3] lemmings</a></li>
+            <li><a href="css-backgrounds/">[4] css backgrounds</a></li>
+            <li><a href="custom-background/">[4] custom background image</a></li>
+            <li><a href="typography-onweb/">[4] typography and fonts on the web</a></li>
+            <li><a href="article-styling/">article styling</a></li>
+          </ul>
+        </section>
+        <section id="tools-container">
+          <h3>Useful Tools and Links</h3>
+          <ul class="list">
+            <li><a href="https://validator.w3.org/">Validator</a></li>
+            <li><a href="http://www.wbwip.com/wbw/emailencoder.html">Email Encoder</a></li>
+            <li><a href="https://cssgradient.io/">CSS Gradient</a></li>
+            <li><a href="https://www.cssmatic.com/box-shadow">Box Shadow</a></li>
+          </ul>
+        </div>
+      </div>
     </main>
     
     <footer>
