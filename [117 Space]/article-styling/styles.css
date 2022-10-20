@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
 footer{
     width: 100%;
 }
@@ -40,7 +42,7 @@ header{
 
 /*Text*/
 h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
     color: rgb(2, 40, 81); 
 
     font-weight: bold;
@@ -51,13 +53,13 @@ h1{
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
     color: rgb(2, 40, 81); 
     font-size: 20px;
 }
 
 .captions{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
     color: rgb(2, 40, 81); 
 
     font-size: 14px;
@@ -65,8 +67,8 @@ p{
     padding-bottom: 2%;
 }
 
-#logotext1, #logotext2{
-    font-family: 'Montserrat', sans-serif;
+.logotext, #logotext2{
+    font-family: 'Noto Sans SC', sans-serif;
     color: rgb(2, 40, 81); 
 
     font-size: 16px;
@@ -79,7 +81,7 @@ p{
 }
 
 #validator{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
     color: rgb(2, 40, 81); 
 
     font-size: 16px;
