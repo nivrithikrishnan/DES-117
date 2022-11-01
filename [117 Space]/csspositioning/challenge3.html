@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 3</title>
+
+        <style>
+            header{
+                font-family: Arial;
+                position: relative;
+
+                width: 1000px;
+                margin: auto;
+                height: 150px;
+                padding: 50px;
+                background-color: chocolate;
+            }
+
+            body{
+                padding-top: 100px;
+            }
+            
+            h1{
+                text-align: center;
+            }
+
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                position: absolute;   
+
+                top: -60px;
+                right: 0px;
+                z-index: -1;
+
+                color: black;
+                text-decoration: none;
+                list-style-type: none;
+                border-color: black;
+            }
+
+            li {
+                background-color: aqua;
+                border-color: black;
+            }
+
+            nav ul li a {
+                display: block;
+                height: 50px;
+                line-height: 50px;
+                padding: 0 20px;
+
+                border-right: 2px solid black;
+
+                text-decoration: none;
+                color: black;
+            }
+
+            nav ul li:last-of-type a {
+                border: none;
+            }
+
+            /* #lastitem{
+                border-right: 0px;
+            } */
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Main Header for the Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#" id="lastitem">Link 5</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+</html>
