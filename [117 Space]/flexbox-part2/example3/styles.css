@@ -1,0 +1,40 @@
+
+body {
+    padding:50px;
+    font-family: Arial;
+    color:#333;
+}
+
+section p {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #555536;
+    border: 5px solid #afaf3b;
+}
+section {
+    border: 5px solid green;
+    padding: 10px;
+    display: flex;
+}
+
+#basis p {
+    flex-basis: 400px; 
+}
+
+/* #basis .one {
+    flex-grow: 1;
+} */
+
+/* #basis .one {
+    flex-grow: 5;
+}
+
+#basis .two {
+    flex-grow: 1;
+}  */
+
+/* #basis .one {
+    flex-shrink: 5;
+} */

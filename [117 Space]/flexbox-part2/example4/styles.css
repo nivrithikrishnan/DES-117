@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    color:#333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: bisque;
+    padding: 100px 0;
+}
+main {
+    min-height: 500px;
+    display: flex;
+}
+
+aside {
+    flex: 1 2 400px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+article {
+    flex: 2 1 800px;
+    padding: 20px;
+    background-color: azure;
+}
+.adverts {
+    flex: 0 0 200px;
+    padding: 20px;
+    background-color: aliceblue;
+}
