@@ -96,6 +96,10 @@ p{
     color: #3C3C3C;
 }
 
+.caption{
+    font-size: 10px;
+}
+
 /*Icon*/
 .left-icon, .right-icon{
     height: 2em;
