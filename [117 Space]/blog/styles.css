@@ -153,11 +153,6 @@ p{
     }
 }
 
-footer{
-    justify-content: center;
-    align-items: center;
-}
-
 @media (max-width:500px)  {
     h1, h2{
         line-height: 20px;
