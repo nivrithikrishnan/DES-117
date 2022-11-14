@@ -2,11 +2,39 @@
 
 /*Containers*/
 .nav{
-    width: 10%; 
+    background-color: #E6D0C5;
+    width: 16%; 
+    margin-right: 2%;
 }
 
-.notnav{
-    width: 90%;
+.nav-element{
+    display: flex;
+    flex-direction: row;
+    max-width: 10em;
+    
+    text-decoration: none;
+    color:#000000;
+
+    margin-left: 8%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: #F8F1ED;
+
+    align-items:center;
+}
+
+.nav-element:hover{
+    background-color: #FFFFFF;
+}
+
+#nav-home{
+    margin-top: 35%;
+}
+
+.content{
+    padding-top: 5%;
+    padding-left: 4%;
+    width: 72%;
 }
 
 header{
@@ -31,13 +59,12 @@ body{
     display: flex;
     flex-direction: row;
     font-family: 'Noto Sans SC', sans-serif;
-    margin: 5%;
 }
 
 h1{
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 75%;
     color: #000000;
 }
@@ -50,9 +77,12 @@ h1{
     color: #3C3C3C;
 }
 
-h2{
-    
+.nav-text{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
 }
+
 
 h3{
     font-style: italic;
@@ -73,5 +103,76 @@ p{
 
 /*Images*/
 .nk-icon{
-    height: 8em;
+    height: 6.5em;
+}
+
+.home-icon{
+    height: 1.8em;
+    margin-right: 1em;
+}
+
+.page-icon{
+    height: 1.6em;
+    margin-right: 1em;
+    padding-left : 0.35em;
+    padding-right: 0.5em;
+}
+
+@media (max-width:1300px)  {
+    .nk-icon{
+        height: 5em;
+    }
+
+    h1, h2{
+        font-size: 22px;
+    }
+
+    .subtitle, h3, p{
+        font-size: 14px;
+    }
+
+    .nav{
+        width: 10%; 
+    }
+    .content{
+        width: 80%;
+    }
+    .nav-element{
+        background-color: transparent;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .nav-element:hover{
+        background-color: transparent;
+
+    }
+
+    .nav-text{
+        font-size: 0;
+    }
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:500px)  {
+    h1, h2{
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .home-icon{
+        height: 1.2em;
+        margin-right: 1em;
+    }
+    
+    .page-icon{
+        height: 1.1em;
+        padding-left : 0.25em;
+        padding-right: 0em;
+    }
+    
 }

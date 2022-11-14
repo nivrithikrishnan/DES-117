@@ -70,3 +70,14 @@ p{
 .left-icon, .right-icon{
     height: 2em;
 }
+
+.home-icon{
+    padding-top: 0.5em;
+    height: 2.5em;
+    color: #e6d0c5;
+}
+
+.blog-photo {
+    max-width: 90%;
+    max-height: 90%;
+}
