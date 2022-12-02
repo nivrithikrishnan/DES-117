@@ -17,14 +17,14 @@ section {
     max-width: 1000px;
     margin: auto;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 section h2 {
     background-color:#aed1d1;
     padding: 20px;
-    /* flex-basis: 100%; */
+    flex-basis: 100%;
 }
 
 section p {
