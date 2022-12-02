@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
 /*Containers*/
+body{
+    min-height: 100vh;
+}
+
 .nav{
     background-color: #E6D0C5;
     width: 16%; 
@@ -34,7 +38,7 @@
 .content{
     padding-top: 5%;
     padding-left: 4%;
-    width: 72%;
+    width: 65%;
 }
 
 header{
@@ -64,7 +68,7 @@ body{
 h1{
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 75%;
     color: #000000;
 }
@@ -75,6 +79,10 @@ h1{
     font-size: 16px;
     line-height: 125%;
     color: #3C3C3C;
+}
+
+#subtitle-text{
+    margin-right: -10%;
 }
 
 .nav-text{
@@ -93,12 +101,28 @@ h3{
 }
 
 p{
+    margin-right: 10%;
+
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
 
     color: #3C3C3C;
+}
+
+.mail{
+    color:#3C3C3C;
+    width: max-content;
+}
+
+a, .mail{
+    color:#000000;
+}
+
+a:hover, .mail:hover{
+    color:#000000;
+    background-color: #3c3c3c2e;
 }
 
 /*Images*/

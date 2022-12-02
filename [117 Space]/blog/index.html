@@ -6,6 +6,9 @@
         <title>Blog</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"> 
         <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="nav">
@@ -33,6 +36,11 @@
                 <img class="page-icon" src="icons/page.png" alt="Page">
                 <div class="nav-text">Blog Post #4</div>
             </a>
+            <br>
+            <a class="nav-element" href="./posts/post5.html">
+                <img class="page-icon" src="icons/page.png" alt="Page">
+                <div class="nav-text">Blog Post #5</div>
+            </a>
         </div>
         <div class="content">
             <header>
@@ -42,54 +50,50 @@
                 <div class="header-right">
                     <div class="subtitle"> DES 117 Blog</div>
                     <h1>NIVRITHI KRISHNAN</h1>
-                    <p>Hello, I’m Nivrithi! Welcome to my blog. Feel free to browse around.</p>
+                    <p id="subtitle-text">Hello, I’m Nivrithi! Welcome to my blog. Feel free to browse around.</p>
                 </div>
             </header>
 
             <main>
+                <article class="time">
+                    <h2>Blog Post 5</h2>
+                    <h3>November 21st, 2022</h3>
+                    <p>In this course, we covered the basics of HTML and CSS, and how they work together with the browser to display a webpage. The tech industry has grown exponentially over the past several years, causing ... </p>
+                    <p><a href="posts/post5.html">Read More</a></p>
+                </article>
+
                 <article>
                     <h2>Blog Post 4</h2>
-                    <time datetime="2022-11-14"><h3>November 14th, 2022</h3></time>
+                    <h3>November 14th, 2022</h3>
                     <p>This weeks readings covered chapters 14 through 17 of the text, which focused on CSS properties and various layout techniques. While a lot of the content was familiar to me ...</p>
                     <p><a href="posts/post4.html">Read More</a></p>
                 </article>
 
                 <article>
                     <h2>Blog Post 3</h2>
-                    <time datetime="2022-11-08"><h3>November 8th, 2022</h3></time>
+                    <h3>November 8th, 2022</h3>
                     <p>For my interactive narrative project, I decided to create my own choose your adventure story. Essentially, this would be a story where the reader assumes the role of the protagonist, and makes a series of choices... </p>
                     <p><a href="posts/post3.html">Read More</a></p>
                 </article>
 
                 <article>
                     <h2>Blog Post 2</h2>
-                    <time datetime="2022-10-12"><h3>October 12th, 2022</h3></time>
+                    <h3>October 12th, 2022</h3>
                     <p>The article covered semantic HTML5, or tags used to indicate specific information. The purpose of these tags are...</p>
                     <p><a href="posts/post2.html">Read More</a></p>
                 </article>
 
                 <article>
                     <h2>Blog Post 1</h2>
-                    <time datetime="2022-10-12"><h3>October 12th, 2022</h3></time>
+                    <h3>October 12th, 2022</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem iste praesentium ipsam exercitationem suscipit! Dolores illum unde quia, debitis porro iste minus quos optio temporibus eos rem eius facilis fugiat.</p>
                     <p><a href="posts/post1.html">Read More</a></p>
                 </article>
             </main>
-
-            <!-- <aside>
-                <nav>
-                    <ul>
-                        <li><a href="posts/post1.html">Post 1</a></li>
-                        <li><a href="posts/post2.html">Post 2</a></li>
-                        <li><a href="posts/post3.html">Post 3</a></li>
-                        <li><a href="posts/post4.html">Post 4</a></li>
-                    </ul>
-                </nav>
-            </aside> -->
-
             <footer>
-                <p>Nivrithi Krishnan</p>
-                <p><a href="https://validator.w3.org/check?uri=referer">Valid HTML</a></p>
+                <br>
+                <a href="mailto:&#110;&#115;&#107;&#114;&#105;&#115;&#104;&#110;&#097;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;.edu"> <p class="mail">Nivrithi Krishnan</p></a>
+                <p><a href="https://validator.w3.org">Valid HTML</a></p>
             </footer>
         </div>
     </body>

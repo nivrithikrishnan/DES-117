@@ -42,11 +42,12 @@ body{
     margin-top: 35%;
 }
 
-.notnav{
+.content{
     padding-top: 5%;
     padding-left: 4%;
-    width: 72%;
+    width: 65%;
 }
+
 
 aside{
     display: flex;
@@ -88,6 +89,7 @@ h3{
 }
 
 p{
+    margin-right: ;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -98,6 +100,20 @@ p{
 
 .caption{
     font-size: 10px;
+}
+
+.mail{
+    color:#3C3C3C;
+    width: max-content;
+}
+
+a, .mail{
+    color:#000000;
+}
+
+a:hover, .mail:hover{
+    color:#000000;
+    background-color: #3c3c3c2e;
 }
 
 /*Icon*/
@@ -139,7 +155,7 @@ p{
         width: 10%; 
     }
     .content{
-        width: 80%;
+        width: 70%;
     }
     .nav-element{
         background-color: transparent;
