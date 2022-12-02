@@ -1,6 +1,14 @@
 .container-choices{
     display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 25%;
+    flex-direction: column;
+    margin: 0 0;
 }
+
+@media (min-width:700px)  {
+    .container-choices{
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+}
+
